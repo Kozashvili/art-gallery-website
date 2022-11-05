@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.h11{
+    color: white;
+    display: inline-block;
+    background-color: black;
+    padding: 24px;
+    font-size: 20px;
+    position: relative;
+    bottom: 4px;
+    right: 4px;
+}
+.a2 {
+    background-color: rgba(213, 150, 108, 1);
+    display: inline-block;
+    padding: 21.5px;
+    position: relative;
+    bottom: -0px;
+    right: -0px;
+}
+.firstdiv{
+    background-image: url(./art-gallery-website/starter-code/assets/mobile/image-map.png);
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.secondiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 493px;
+}
+.h12 {
+    color: white;
+    font-size: 40px;
+    font-style: black;
+    line-height: 45px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    margin-left: 16px;
+}
+.h21 {
+    font-size: 27px;
+    color: rgba(213, 150, 108, 1);
+    font-weight: 900;
+    font-family: 'Big Shoulders Display';
+    line-height: 32px;  
+    font-style: normal;
+    margin-left: 16px;
+}
+.p1 {
+    font-weight: 300;
+    font-size: 18px;
+    font-family: "Outfit";
+    font-style: normal;
+    line-height: 28px;
+    color: white;
+    margin-left: 16px;
+}
+.p2 {
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Outfit';
+    font-style: normal;
+    color: white;
+    line-height: 28px;
+    margin-left: 16px;
+}
+.div3 {
+    background-color: rgba(213, 150, 108, 1);
+    display: flex;
+    flex-direction: column;
+    height: 336px;
+    justify-content: space-evenly;
+}
+.h13 {
+    color: rgba(21, 21, 21, 1);
+    margin-left: 32px;
+}
+.p3 {
+    color: rgba(21, 21, 21, 1);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.div4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-left: 12px;
+}
+.div22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+}
+@media screen and (min-width: 768px) {
+    .firstdiv {
+        background-image: url(./art-gallery-website/starter-code/assets/tablet/image-map.png);
+    }
+    .goback {
+        position: relative;
+        left: 39px
+    }
+    .secondiv {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .div21{
+        margin-top: 88px;
+        width: 200px;
+    }
+    .div22 {
+        margin-top: 88px;
+        width:300px;
+    }
+    .div3 {
+        flex-direction: row;
+        align-items: center;
+        height: 214px;
+    }
+    .p3 {
+        width: 281px;
+    }
+    .div4 {
+        width: 60px;
+        margin: 0px;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+    }
+    .h13{
+        width: 150.05px;
+        font-size: 20px;
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+    .div4 {
+        width: 100px;
+    }
+    .a2 {
+        width: 20px;
+        height: 20px;;
+        padding: 20px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .firstdiv {
+        background-image: url(./art-gallery-website/starter-code/assets/desktop/image-map.png);
+    }
+    .a2{
+        height: 69px;
+    }
+    .goback {
+        left: 151px; 
+
+    }
+    .secondiv {
+        justify-content: space-around;
+        height: 548px;
+    }
+    .div21{
+        margin-right: 40px;
+    }
+    .h12 {
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 70px;
+        text-transform: uppercase;
+    }
+    .h21 {
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .p1 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .p2 {
+        font-size: 22px;
+        line-height: 32px;
+        height: 128px;
+    }
+    .div22 {
+        width: 540px;
+        justify-content: space-between;
+    }
+    .div3 {
+        height: 244px;
+    }
+    .div4 {
+        width: 150px
+    }
+}
